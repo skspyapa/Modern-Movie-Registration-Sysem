@@ -1,4 +1,4 @@
-# Modern Movie Registration Sysem
+# Modern Movie Registration System
 
 ## Description
 This Application is built for making easy the business by Managing Movies,Managing Actors and Registering Actors.Layered Architecture used for buiding the project.
