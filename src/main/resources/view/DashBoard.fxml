@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep.movie.controller.DashBoardController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutY="53.0" prefHeight="68.0" prefWidth="600.0" text="DashBoard" textFill="#0ec3f5">
+         <font>
+            <Font size="46.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="ManageMovie" layoutX="70.0" layoutY="185.0" onMouseClicked="#ManageMovie_clicked" AnchorPane.leftAnchor="70.0">
+         <image>
+            <Image url="@../images/dashBoard1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ManageActors" layoutX="243.0" layoutY="175.0" onMouseClicked="#ManageActors_Clicked">
+         <image>
+            <Image url="@../images/dashBoard2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="RegisterMovie" layoutX="437.0" layoutY="185.0" onMouseClicked="#RegisterMovie_Clicked" AnchorPane.rightAnchor="70.0">
+         <image>
+            <Image url="@../images/dashBoard3.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
